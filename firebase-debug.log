@@ -1,0 +1,78 @@
+[debug] [2023-04-18T07:21:02.738Z] ----------------------------------------------------------------------
+[debug] [2023-04-18T07:21:02.740Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-04-18T07:21:02.740Z] CLI Version:   11.27.0
+[debug] [2023-04-18T07:21:02.740Z] Platform:      win32
+[debug] [2023-04-18T07:21:02.741Z] Node Version:  v16.16.0
+[debug] [2023-04-18T07:21:02.749Z] Time:          Tue Apr 18 2023 12:51:02 GMT+0530 (India Standard Time)
+[debug] [2023-04-18T07:21:02.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-18T07:21:02.806Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-04-18T07:21:02.813Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-18T07:21:02.814Z] > authorizing via signed-in user (aadityasinghal0@gmail.com)
+[debug] [2023-04-18T07:21:02.814Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Project III\ecommerce-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-18T07:21:06.659Z] Using project from CLI flag: salinaka-ecommerce
+[debug] [2023-04-18T07:21:06.665Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce [none]
+[debug] [2023-04-18T07:21:08.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce 403
+[debug] [2023-04-18T07:21:08.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-04-18T07:21:08.131Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-04-18T07:21:13.139Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-04-18T07:21:37.871Z] ----------------------------------------------------------------------
+[debug] [2023-04-18T07:21:37.873Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-04-18T07:21:37.874Z] CLI Version:   11.27.0
+[debug] [2023-04-18T07:21:37.874Z] Platform:      win32
+[debug] [2023-04-18T07:21:37.874Z] Node Version:  v16.16.0
+[debug] [2023-04-18T07:21:37.882Z] Time:          Tue Apr 18 2023 12:51:37 GMT+0530 (India Standard Time)
+[debug] [2023-04-18T07:21:37.882Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-18T07:21:37.947Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-04-18T07:21:37.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-18T07:21:37.954Z] > authorizing via signed-in user (aadityasinghal0@gmail.com)
+[debug] [2023-04-18T07:21:37.955Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Project III\ecommerce-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-04-18T07:21:51.815Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
